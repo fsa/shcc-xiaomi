@@ -1,0 +1,23 @@
+{
+    "name": "fsa/shcc-xiaomi",
+    "description": "Плагин SHCC. Обеспечивает поддержу оборудования Xiaomi через шлюз при включении на шлюзе «Протокола связи локальной сети».",
+    "keywords": [
+        "shcc"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sergei Fedotov",
+            "email": "fsa@tavda.info"
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "FSA\\XiaomiPlugin\\": "classes/"
+        }
+    },
+    "require": {
+        "fsa/shcc-framework": "^0.1.0"
+    }
+}

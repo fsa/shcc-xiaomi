@@ -1,0 +1,10 @@
+{
+    "name": "Xiaomi",
+    "namespace": "FSA\\XiaomiPlugin\\",
+    "description": "Обеспечивает поддержу оборудования Xiaomi через шлюз при включении на шлюзе «Протокола связи локальной сети».",
+    "daemon": "FSA\\XiaomiPlugin\\Daemon",
+    "settings": {
+        "ip": "224.0.0.50",
+        "port": 9898
+    }
+}
