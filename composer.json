@@ -18,6 +18,6 @@
         }
     },
     "require": {
-        "fsa/shcc-framework": "^0.1.0"
+        "fsa/shcc-framework": "^0.1"
     }
 }
