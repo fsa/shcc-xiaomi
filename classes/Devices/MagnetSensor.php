@@ -82,7 +82,7 @@ class MagnetSensor extends AbstractDevice
             $result[] = 'Открыто более ' . $this->open_timer . ' с.';
         }
         if ($this->voltage) {
-            $result[] = sprintf('Батарея CR2032: %.3f В.', $this->voltage);
+            $result[] = sprintf('Батарея CR1632: %.3f В.', $this->voltage);
         }
         return join(' ', $result);
     }
